@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "description": "A style dictionary for the Preach design system.",
   "author": "Mike Mangialardi <mikemangialardi94@gmail.com>",
+  "main": "output/js/tokens.js",
   "license": "ISC",
   "scripts": {
     "build": "style-dictionary build"
