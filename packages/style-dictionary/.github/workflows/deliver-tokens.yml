@@ -15,11 +15,11 @@ jobs:
         with:
           node-version: "12"
       - name: Install Node Dependencies
-        run: npm install
+        run: yarn install
       - name: Build Style Dictionary
-        run: npm run build
+        run: yarn run build
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Build design tokens
       - name: Export Design Tokens
-        run: npm run export
+        run: yarn run export
