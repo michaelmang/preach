@@ -19,5 +19,7 @@ Primary.args = {
 export const Secondary = Template.bind({});
 
 Secondary.args = {
-  children: "Secondary Button"
+  children: "Secondary Button",
+  primary: false,
+  white: false,
 };
