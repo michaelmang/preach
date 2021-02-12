@@ -2,6 +2,10 @@
   "name": "root",
   "private": true,
   "devDependencies": {
-    "lerna": "^3.22.1"
+    "lerna": "^3.22.1",
+    "npm-cli-login": "^0.1.1"
+  },
+  "scripts": {
+    "publish": "lerna exec -- npm publish --access public"
   }
 }
