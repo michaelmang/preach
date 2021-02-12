@@ -1,6 +1,6 @@
 {
   "name": "@preach/style-dictionary",
-  "version": "0.0.0",
+  "version": "1.0.0-alpha.0",
   "description": "A style dictionary for the Preach design system.",
   "author": "Mike Mangialardi <mikemangialardi94@gmail.com>",
   "main": "output/js/tokens.js",
@@ -13,7 +13,6 @@
     "prettier": "^2.2.1",
     "style-dictionary": "^2.10.2"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/michaelmang/preach/tree/master/packages/style-dictionary"
