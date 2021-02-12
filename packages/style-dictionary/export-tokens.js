@@ -3,7 +3,7 @@ const path = require("path");
 const prettier = require("prettier");
 
 const SRC_FOLDER = "./output/js";
-const DEST_FOLDER = "../tailwind/tokens/";
+const DEST_FOLDER = "../twind/tokens/";
 
 fs.readdirSync(SRC_FOLDER).forEach((file) => {
   const { base } = path.parse(file);
