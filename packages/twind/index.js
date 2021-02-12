@@ -1,23 +1,17 @@
+import kebabcase from 'lodash.kebabcase';
 import { apply, setup, tw } from 'twind';
 
-import tokens from './tokens/tokens';
+import * as tokens from './tokens/tokens.js';
 
-const colors = Object.values(tokens.color);
+let colors = {};
 
-function normalizeColors(colors) {
-  return Object.values(colors.color).map(({ name, value }) => ({ key: name, value }));
-}
-
-function collectionToObject(collection) {
-  return collection.reduce(
-    (obj, item) => Object.assign(obj, { [item.key]: item.value }), {});
-}
-
-const themeColors = collectionToObject(normalizeColors(colors))
+for (const [key, value] of Object.entries(tokens)) {
+  colors[kebabcase(key)] = value;
+} 
 
 setup({
   theme: {
-    colors: themeColors,
+    colors,
   },
 });
 
