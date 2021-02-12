@@ -1,6 +1,6 @@
 {
   "name": "@preach/twind",
-  "version": "0.0.1-alpha.0",
+  "version": "0.0.1-alpha.1",
   "description": "A twind implementation of the Preach design system.",
   "author": "Mike Mangialardi <mikemangialardi94@gmail.com>",
   "license": "ISC",
@@ -13,13 +13,15 @@
     "twind": "^0.15.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clean": "rimraf dist",
+    "build": "yarn run clean && parcel build index.js"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/michaelmang/preach/tree/master/packages/twind"
   },
   "devDependencies": {
+    "parcel-bundler": "^1.12.4",
     "rimraf": "^3.0.2"
   }
 }
