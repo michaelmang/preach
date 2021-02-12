@@ -1,6 +1,6 @@
 {
   "name": "@preach/twind",
-  "version": "0.0.0",
+  "version": "0.0.1-alpha.0",
   "description": "A twind implementation of the Preach design system.",
   "author": "Mike Mangialardi <mikemangialardi94@gmail.com>",
   "license": "ISC",
@@ -8,7 +8,6 @@
   "dependencies": {
     "twind": "^0.15.1"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

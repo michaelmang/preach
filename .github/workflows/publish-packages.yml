@@ -16,4 +16,4 @@ jobs:
       - name: Install Dependencies
         run: yarn global add lerna
       - name: Publish With Lerna
-        run: lerna publish from-git --yes
+        run: lerna publish from-git --yes --force-publish=*
