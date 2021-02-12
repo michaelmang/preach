@@ -6,7 +6,7 @@
       "buildPath": "output/js/",
       "files": [{
         "destination": "tokens.js",
-        "format": "javascript/object"
+        "format": "javascript/module"
       }]
     }
   }

@@ -1,9 +1,9 @@
 /**
  * Do not edit directly
- * Generated on Fri, 12 Feb 2021 17:44:25 GMT
+ * Generated on Fri, 12 Feb 2021 18:49:27 GMT
  */
 
-var _styleDictionary = {
+module.exports = {
   "color": {
     "primary": {
       "value": "hsl(223, 37%, 36%)",
