@@ -1,5 +1,5 @@
 {
-  "name": "twind",
+  "name": "@preach/twind",
   "version": "0.0.0",
   "description": "A twind implementation of the Preach design system.",
   "author": "Mike Mangialardi <mikemangialardi94@gmail.com>",
@@ -7,5 +7,13 @@
   "main": "index.js",
   "dependencies": {
     "twind": "^0.15.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/michaelmang/preach/tree/master/packages/twind"
   }
 }
