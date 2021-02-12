@@ -7,7 +7,7 @@ on:
 
 jobs:
   # Add a job for every additional consumer/application
-  generate_tokens:
+  build_and_deliver_tokens:
     runs-on: macos-latest
     steps:
       - uses: actions/checkout@v2
@@ -21,3 +21,5 @@ jobs:
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Build design tokens
+      - name: Export Design Tokens
+        run: npm run export

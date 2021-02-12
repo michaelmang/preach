@@ -6,9 +6,11 @@
   "main": "output/js/tokens.js",
   "license": "ISC",
   "scripts": {
-    "build": "style-dictionary build"
+    "build": "style-dictionary build",
+    "export": "node export-tokens.js"
   },
   "dependencies": {
+    "prettier": "^2.2.1",
     "style-dictionary": "^2.10.2"
   }
 }
