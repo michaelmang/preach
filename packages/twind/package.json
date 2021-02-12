@@ -1,0 +1,11 @@
+{
+  "name": "twind",
+  "version": "0.0.0",
+  "description": "A twind implementation of the Preach design system.",
+  "author": "Mike Mangialardi <mikemangialardi94@gmail.com>",
+  "license": "ISC",
+  "main": "index.js",
+  "dependencies": {
+    "twind": "^0.15.1"
+  }
+}
