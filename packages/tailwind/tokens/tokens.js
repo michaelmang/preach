@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 12 Feb 2021 18:49:27 GMT
+ * Generated on Fri, 12 Feb 2021 18:51:26 GMT
  */
 
 module.exports = {
@@ -12,7 +12,7 @@ module.exports = {
         value: "#3A4D7E",
         type: "color",
       },
-      name: "ColorPrimary",
+      name: "color-primary",
       attributes: {
         category: "color",
         type: "primary",
@@ -26,7 +26,7 @@ module.exports = {
         value: "#B9C4DF",
         type: "color",
       },
-      name: "ColorPrimaryLight",
+      name: "color-primary-light",
       attributes: {
         category: "color",
         type: "primary_light",
@@ -40,7 +40,7 @@ module.exports = {
         value: "#29322E",
         type: "color",
       },
-      name: "ColorBlack",
+      name: "color-black",
       attributes: {
         category: "color",
         type: "black",
@@ -54,7 +54,7 @@ module.exports = {
         value: "#404F48",
         type: "color",
       },
-      name: "ColorBlackLight",
+      name: "color-black-light",
       attributes: {
         category: "color",
         type: "black_light",
@@ -68,7 +68,7 @@ module.exports = {
         value: "#FFFFFF",
         type: "color",
       },
-      name: "ColorWhite",
+      name: "color-white",
       attributes: {
         category: "color",
         type: "white",
@@ -82,7 +82,7 @@ module.exports = {
         value: "#F1F5F8",
         type: "color",
       },
-      name: "ColorWhiteDark",
+      name: "color-white-dark",
       attributes: {
         category: "color",
         type: "white_dark",
@@ -96,7 +96,7 @@ module.exports = {
         value: "#EB6957",
         type: "color",
       },
-      name: "ColorError",
+      name: "color-error",
       attributes: {
         category: "color",
         type: "error",
@@ -110,7 +110,7 @@ module.exports = {
         value: "#F2C94C",
         type: "color",
       },
-      name: "ColorWarning",
+      name: "color-warning",
       attributes: {
         category: "color",
         type: "warning",
@@ -124,7 +124,7 @@ module.exports = {
         value: "#AAC2FF",
         type: "color",
       },
-      name: "ColorInfo",
+      name: "color-info",
       attributes: {
         category: "color",
         type: "info",
