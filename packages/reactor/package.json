@@ -22,7 +22,7 @@
   "scripts": {
     "start": "react-scripts start",
     "clean": "rimraf dist",
-    "build": "yarn run clean && microbundle --jsx jsx --jsxImportSource react --globals react/jsx-runtime=jsx",
+    "build": "yarn run clean && microbundle --external @preach/twind --jsx jsx --jsxImportSource react --globals react/jsx-runtime=jsx",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
