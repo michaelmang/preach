@@ -1,6 +1,6 @@
 {
   "name": "@preach/reactor",
-  "version": "0.0.1-alpha.5",
+  "version": "0.0.1-alpha.7",
   "license": "ISC",
   "private": false,
   "source": "src/components/index.js",
@@ -46,6 +46,8 @@
     ]
   },
   "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/preset-react": "^7.12.13",
     "@storybook/addon-actions": "^6.1.17",
     "@storybook/addon-essentials": "^6.1.17",
     "@storybook/addon-links": "^6.1.17",
