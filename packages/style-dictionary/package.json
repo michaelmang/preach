@@ -1,5 +1,6 @@
 {
   "name": "@preach/style-dictionary",
+  "private": true,
   "version": "0.0.1-alpha.0",
   "description": "A style dictionary for the Preach design system.",
   "author": "Mike Mangialardi <mikemangialardi94@gmail.com>",
