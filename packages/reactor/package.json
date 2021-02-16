@@ -1,6 +1,6 @@
 {
   "name": "@preach/reactor",
-  "version": "0.0.1-alpha.2",
+  "version": "0.0.1-alpha.4",
   "license": "ISC",
   "private": false,
   "source": "src/components/index.js",
@@ -22,7 +22,7 @@
   "scripts": {
     "start": "react-scripts start",
     "clean": "rimraf dist",
-    "build": "yarn run clean && microbundle --external react,react-dom --name Reactor --jsx React.createElement --jsxFragment React.Fragment --compress false --sourcemap false",
+    "build": "yarn run clean && microbundle --jsx jsx --jsxImportSource react --globals react/jsx-runtime=jsx",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
