@@ -22,7 +22,7 @@
   "scripts": {
     "start": "react-scripts start",
     "clean": "rimraf dist",
-    "build": "yarn run clean && microbundle",
+    "build": "yarn run clean && microbundle --external react,react-dom --name Reactor --jsx React.createElement --jsxFragment React.Fragment --compress false --sourcemap false",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
